@@ -1,0 +1,28 @@
+:root {
+  --main-color: var(--textColor);
+}
+
+.label {
+  display: block;
+  padding: 0.25em 10px;
+  border-top: 2px solid color(var(--main-color) a(50%));
+  color: color(var(--main-color) a(50%));
+  font-weight: normal;
+  line-height: 1;
+  overflow: hidden;
+
+  &.isActive {
+    border-top-color: var(--main-color);
+    color: var(--main-color);
+  }
+}
+
+.animatedText {
+  display: block;
+  transform: translateY(-130%);
+  transition: var(--timingFast) transform var(--cubic);
+
+  @nest .showAnimatedText & {
+    transform: translateY(0);
+  }
+}

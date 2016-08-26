@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+  overflow: hidden;
+}
+
+.logo {
+  max-width: 600px;
+  margin: 40px auto 30px;
+  text-align: center;
+}
+
+.triangles {
+  width: 180rem;
+  z-index: 10;
+}

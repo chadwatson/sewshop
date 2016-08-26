@@ -1,0 +1,127 @@
+:root {
+  --bg: var(--deepSeaBlue);
+}
+
+.root,
+.openButton {
+  background: color(var(--bg) a(99%));
+}
+
+.root {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 30px 20px 20px;
+  z-index: 50;
+  transform: translateY(100%);
+  transition: transform var(--timing) var(--cubic);
+
+  @media (--small) {
+    top: 0;
+    left: initial;
+    right: 0;
+    width: var(--drawerWidth);
+    transform: translateX(100%);
+  }
+
+  &.isActive {
+    transform: translateX(0);
+  }
+}
+
+.root,
+.root a {
+  color: white;
+}
+
+.openButton {
+  position: absolute;
+  top: -6em;
+  left: 0;
+  width: 100%;
+  height: 6em;
+  font-size: 10px;
+
+  @media (--small) {
+    top: 10em;
+    left: -6em;
+    width: 6em;
+  }
+}
+
+.headline,
+.content {
+  border-bottom: 1px solid var(--mediumGray);
+}
+
+.headline {
+  padding-bottom: 10px;
+  font-size: 2.4rem;
+}
+
+.content {
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+
+.cartItems {
+  & input {
+    width: 20px;
+    border: none;
+    background: transparent;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+.closeButton,
+.cartItem .removeButton {
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+
+    & svg {
+      fill: white;
+    }
+  }
+}
+
+.cartItem {
+  margin-bottom: 10px;
+}
+
+.cartMessage {
+  margin-bottom: 1em;
+}
+
+.removeButton {
+  opacity: 0.5;
+
+  & svg {
+    fill: white;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.total {
+  display: inline-block;
+  margin-right: 1em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

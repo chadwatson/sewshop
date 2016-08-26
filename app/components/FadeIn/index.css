@@ -1,0 +1,8 @@
+.root {
+  opacity: 1;
+  transition: 0.5s opacity ease 0s;
+
+  &.isHidden {
+    opacity: 0;
+  }
+}

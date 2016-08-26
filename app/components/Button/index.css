@@ -1,0 +1,79 @@
+.base {
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Sizes */
+.normal {
+  padding: 0.75em 1.5em;
+}
+
+.small {
+  padding: 0.5em 1em;
+}
+
+/* Variants */
+.default {
+  background: var(--mintLeaf);
+  color: white;
+
+  &:hover {
+    background: color(var(--mintLeaf) saturation(80%));
+  }
+}
+
+.important {
+  background: var(--mellowYellow);
+  color: white;
+
+  &:hover {
+    background: color(var(--mellowYellow) saturation(80%));
+  }
+}
+
+.cool {
+  background: var(--alluringAqua);
+  color: white;
+
+  &:hover {
+    background: color(var(--alluringAqua) saturation(80%));
+  }
+}
+
+.dull {
+  background: var(--blushingBride);
+  color: white;
+
+  &:hover {
+    background: color(var(--blushingBride) saturation(80%));
+  }
+}
+
+.dark {
+  background: var(--licorice);
+  color: white;
+
+  &:hover {
+    background: color(var(--licorice) blackness(100%));
+  }
+}
+
+.inactive {
+  background: var(--lightGray);
+  color: var(--licorice);
+
+  &:hover {
+    background: color(var(--lightGray) blackness(10%));
+  }
+}
+
+.disabled,
+.disabled:hover {
+  background: var(--lightGray);
+  color: var(--mediumGray);
+  cursor: default;
+}

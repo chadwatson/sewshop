@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  font-size: 0.625em;
+  vertical-align: middle;
+
+  &:hover {
+    & .icon {
+      fill: var(--mintLeaf);
+    }
+  }
+}
+
+.icon {
+  width: 2em;
+  height: 2em;
+  margin: 1em auto;
+  fill: var(--mediumGray);
+}

@@ -1,0 +1,30 @@
+.base {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media (--medium) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.size-default {
+  max-width: 1020px;
+}
+
+.size-small {
+  max-width: 560px;
+}
+
+.size-medium {
+  max-width: 980px;
+}
+
+.size-large {
+  max-width: 1220px;
+}
+
+.size-xlarge {
+  max-width: 1440px;
+}

@@ -1,0 +1,105 @@
+.backWrap {
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--lightGray);
+}
+
+.backLink {
+  text-decoration: none;
+  color: var(--deepSeaBlue);
+  font-weight: bold;
+
+  &::before {
+    content: '\2039 ';
+    font-size: 1.2em;
+    vertical-align: baseline;
+  }
+
+  &:hover {
+    color: var(--mintLeaf);
+  }
+}
+
+.main {
+  @media (--medium) {
+    display: flex;
+  }
+}
+
+.title {
+  margin-bottom: 1em;
+}
+
+.gallery {
+  margin-bottom: 40px;
+
+  @media (--mini) {
+    width: 100%;
+  }
+
+  @media (--medium) {
+    width: 33.333%;
+  }
+}
+
+.strip {
+  @media (--mini) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.stripImage {
+  width: 100%;
+  margin-bottom: 20px;
+
+  @media (--mini) {
+    width: 48%;
+  }
+}
+
+.content {
+  width: 100%;
+  margin-bottom: 40px;
+
+  @media (--medium) {
+    width: 66.666%;
+    padding-left: 3%;
+  }
+
+  @media (--large) {
+    padding-left: 5%;
+  }
+}
+
+.description {
+  margin-bottom: 30px;
+}
+
+.addWrap {
+  margin-bottom: 30px;
+}
+
+.quantityWrap {
+  display: inline-block;
+  margin-right: 20px;
+
+  & button:hover {
+    background: var(--deepSeaBlue);
+    color: white;
+  }
+}
+
+.message {
+  padding: 20px;
+  background: var(--lightGray);
+}
+
+.actionButton {
+  display: inline-block;
+
+  &:first-child {
+    margin-right: 15px;
+  }
+}

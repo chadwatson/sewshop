@@ -1,0 +1,15 @@
+.wrap {
+  & input {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background: transparent;
+    color: var(--textColor);
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}

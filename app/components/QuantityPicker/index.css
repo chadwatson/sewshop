@@ -1,0 +1,15 @@
+.input,
+.button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.input {
+  width: 30px;
+  text-align: center;
+}
+
+.button {
+  padding: 0 3px;
+  margin: 0 3px;
+}

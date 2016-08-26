@@ -1,0 +1,54 @@
+[
+  {
+    "id": "custom-banner",
+    "title": "Design Your Custom Banner",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, placeat harum dignissimos! Culpa ratione unde veritatis, odit animi cumque perferendis vel repudiandae omnis, quidem dolorem! Commodi repudiandae quisquam, placeat fugiat aspernatur, aliquam numquam qui sequi at, laboriosam recusandae voluptatem voluptas.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, placeat harum dignissimos! Culpa ratione unde veritatis, odit animi cumque perferendis vel repudiandae omnis, quidem dolorem! Commodi repudiandae quisquam, placeat fugiat aspernatur, aliquam numquam qui sequi at, laboriosam recusandae voluptatem voluptas.</p>",
+    "images": ["https://scontent-ord1-1.cdninstagram.com/t51.2885-15/e35/10448980_954882804581396_1021572892_n.jpg?ig_cache_key=MTIwNjc1NjIyNDgzMTc1OTMwMg%3D%3D.2"],
+    "categories": [],
+    "inCart": false,
+    "quantity": 1
+  },
+  {
+    "id": "floral-headband",
+    "title": "Floral Headband",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, placeat harum dignissimos! Culpa ratione unde veritatis, odit animi cumque perferendis vel repudiandae omnis, quidem dolorem! Commodi repudiandae quisquam, placeat fugiat aspernatur, aliquam numquam qui sequi at, laboriosam recusandae voluptatem voluptas.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, placeat harum dignissimos! Culpa ratione unde veritatis, odit animi cumque perferendis vel repudiandae omnis, quidem dolorem! Commodi repudiandae quisquam, placeat fugiat aspernatur, aliquam numquam qui sequi at, laboriosam recusandae voluptatem voluptas.</p>",
+    "price": 30,
+    "images": ["https://scontent-ord1-1.cdninstagram.com/t51.2885-15/e35/12479623_1687281968193138_749272927_n.jpg?ig_cache_key=MTIxNjAyNjg4NTYxNjg2MTc4NA%3D%3D.2"],
+    "categories": ["headband"],
+    "inCart": false,
+    "quantity": 1
+  },
+  {
+    "id": "swan-garland",
+    "title": "Swan Garland",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, placeat harum dignissimos! Culpa ratione unde veritatis, odit animi cumque perferendis vel repudiandae omnis, quidem dolorem! Commodi repudiandae quisquam, placeat fugiat aspernatur, aliquam numquam qui sequi at, laboriosam recusandae voluptatem voluptas.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, placeat harum dignissimos! Culpa ratione unde veritatis, odit animi cumque perferendis vel repudiandae omnis, quidem dolorem! Commodi repudiandae quisquam, placeat fugiat aspernatur, aliquam numquam qui sequi at, laboriosam recusandae voluptatem voluptas.</p>",
+    "price": 20,
+    "images": [
+      "https://scontent-ord1-1.cdninstagram.com/t51.2885-15/e35/12797856_1718058598407643_310725713_n.jpg?ig_cache_key=MTIwNTMwMzMzNTI4OTM4OTg2NQ%3D%3D.2",
+      "https://scontent-ord1-1.cdninstagram.com/t51.2885-15/e35/12907259_1671639466433213_357808429_n.jpg?ig_cache_key=MTIzMTk2NDEwNTUxMTA0MzI4OQ%3D%3D.2"
+    ],
+    "categories": ["garland"],
+    "inCart": false,
+    "quantity": 1
+  },
+  {
+    "id": "tiny-triangle-garlands",
+    "title": "Tiny Triangle Garland",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, placeat harum dignissimos! Culpa ratione unde veritatis, odit animi cumque perferendis vel repudiandae omnis, quidem dolorem! Commodi repudiandae quisquam, placeat fugiat aspernatur, aliquam numquam qui sequi at, laboriosam recusandae voluptatem voluptas.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, placeat harum dignissimos! Culpa ratione unde veritatis, odit animi cumque perferendis vel repudiandae omnis, quidem dolorem! Commodi repudiandae quisquam, placeat fugiat aspernatur, aliquam numquam qui sequi at, laboriosam recusandae voluptatem voluptas.</p>",
+    "price": 3,
+    "images": ["https://scontent-ord1-1.cdninstagram.com/t51.2885-15/e35/10616643_586778151471158_125299100_n.jpg?ig_cache_key=MTIxMjU4OTcxNjg2NDc5NTQzMA%3D%3D.2"],
+    "categories": ["garland"],
+    "inCart": false,
+    "quantity": 1
+  },
+  {
+    "id": "teeny-tiny-triangle-garlands",
+    "title": "Teeny-Tiny Triangle Garland",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, placeat harum dignissimos! Culpa ratione unde veritatis, odit animi cumque perferendis vel repudiandae omnis, quidem dolorem! Commodi repudiandae quisquam, placeat fugiat aspernatur, aliquam numquam qui sequi at, laboriosam recusandae voluptatem voluptas.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, placeat harum dignissimos! Culpa ratione unde veritatis, odit animi cumque perferendis vel repudiandae omnis, quidem dolorem! Commodi repudiandae quisquam, placeat fugiat aspernatur, aliquam numquam qui sequi at, laboriosam recusandae voluptatem voluptas.</p>",
+    "price": 5,
+    "images": ["https://scontent-ord1-1.cdninstagram.com/t51.2885-15/e35/12599493_227910360893568_1581310843_n.jpg?ig_cache_key=MTIxMjU5MjE0MDczNjI5OTg4NQ%3D%3D.2"],
+    "categories": ["garland"],
+    "inCart": false,
+    "quantity": 1
+  }
+]

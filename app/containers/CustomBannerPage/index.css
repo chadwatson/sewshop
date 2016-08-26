@@ -1,0 +1,46 @@
+.root {
+  padding: 20px 0;
+  border-top: 1px solid var(--lightGray);
+}
+
+.modalInfo {
+  display: flex;
+}
+
+.modalGallery {
+  width: 33.333%;
+}
+
+.modalDescription {
+  width: 66.666%;
+  padding-left: 5%;
+}
+
+.modalButton {
+  margin-top: 30px;
+}
+
+.modalClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.infoButton {
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+  font-size: 24px;
+
+  @media (--small) {
+    bottom: 20px;
+    left: 30px;
+  }
+}
+
+.bannerSticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

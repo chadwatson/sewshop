@@ -1,0 +1,94 @@
+.main {
+  margin-bottom: 40px;
+
+  @media (--medium) {
+    display: flex;
+  }
+}
+
+.title {
+  margin-bottom: 20px;
+  color: var(--textColor);
+  font-size: 36px;
+}
+
+.headline {
+  margin-bottom: 0.5em;
+  font-size: 24px;
+}
+
+.sectionTitle {
+  padding: 10px;
+  margin-bottom: 20px;
+  background: var(--mintLeaf);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.field {
+  margin-bottom: 10px;
+
+  @nest .halfFields & {
+    width: 50%;
+
+    &:nth-of-type(odd) {
+      padding-right: 10px;
+    }
+
+    &:nth-of-type(even) {
+      padding-left: 10px;
+    }
+  }
+}
+
+.input {
+  font-size: 24px;
+}
+
+/**
+ * Cart
+ */
+
+.cartItem {
+  padding: 10px;
+
+  &:hover {
+    background: var(--lightGray);
+  }
+
+  & a {
+    color: var(--textColor);
+
+    &:hover {
+      border-bottom-color: color(var(--textColor) a(25%));
+    }
+  }
+}
+
+.cartTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartMessage {
+  display: inline-block;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+.cartBottom {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--lightGray);
+  text-align: center;
+}
+
+.removeButton {
+  width: 40px;
+}

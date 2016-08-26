@@ -1,0 +1,221 @@
+:root {
+  --gutter: 10px;
+  --col1: 100%;
+  --col2: calc(100% / 2 - var(--gutter));
+  --col3: calc(100% / 3 - var(--gutter) * 2);
+  --col4: calc(100% / 4 - var(--gutter) * 3);
+  --col5: calc(100% / 5 - var(--gutter) * 4);
+  --col6: calc(100% / 6 - var(--gutter) * 5);
+}
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.base1 > div {
+  width: var(--col1);
+}
+
+.base2 > div {
+  width: var(--col2);
+}
+
+.base3 > div {
+  width: var(--col3);
+}
+
+.base4 > div {
+  width: var(--col4);
+}
+
+.base5 > div {
+  width: var(--col5);
+}
+
+.base6 > div {
+  width: var(--col6);
+}
+
+.base2,
+.base3,
+.base4,
+.base5,
+.base6 {
+  flex-direction: row;
+}
+
+@media (--mini) {
+  .mini1 > div {
+    width: var(--col1);
+  }
+  .mini2 > div {
+    width: var(--col2);
+  }
+  .mini3 > div {
+    width: var(--col3);
+  }
+  .mini4 > div {
+    width: var(--col4);
+  }
+  .mini5 > div {
+    width: var(--col5);
+  }
+  .mini6 > div {
+    width: var(--col6);
+  }
+
+  .mini2,
+  .mini3,
+  .mini4,
+  .mini5,
+  .mini6 {
+    flex-direction: row;
+  }
+}
+
+@media (--small) {
+  .small1 > div {
+    width: var(--col1);
+  }
+  .small2 > div {
+    width: var(--col2);
+  }
+  .small3 > div {
+    width: var(--col3);
+  }
+  .small4 > div {
+    width: var(--col4);
+  }
+  .small5 > div {
+    width: var(--col5);
+  }
+  .small6 > div {
+    width: var(--col6);
+  }
+
+  .small2,
+  .small3,
+  .small4,
+  .small5,
+  .small6 {
+    flex-direction: row;
+  }
+}
+
+@media (--medium) {
+  .medium1 > div {
+    width: var(--col1);
+  }
+  .medium2 > div {
+    width: var(--col2);
+  }
+  .medium3 > div {
+    width: var(--col3);
+  }
+  .medium4 > div {
+    width: var(--col4);
+  }
+  .medium5 > div {
+    width: var(--col5);
+  }
+  .medium6 > div {
+    width: var(--col6);
+  }
+
+  .medium2,
+  .medium3,
+  .medium4,
+  .medium5,
+  .medium6 {
+    flex-direction: row;
+  }
+}
+
+@media (--large) {
+  .large1 > div {
+    width: var(--col1);
+  }
+  .large2 > div {
+    width: var(--col2);
+  }
+  .large3 > div {
+    width: var(--col3);
+  }
+  .large4 > div {
+    width: var(--col4);
+  }
+  .large5 > div {
+    width: var(--col5);
+  }
+  .large6 > div {
+    width: var(--col6);
+  }
+
+  .large2,
+  .large3,
+  .large4,
+  .large5,
+  .large6 {
+    flex-direction: row;
+  }
+}
+
+@media (--xlarge) {
+  .xlarge1 > div {
+    width: var(--col1);
+  }
+  .xlarge2 > div {
+    width: var(--col2);
+  }
+  .xlarge3 > div {
+    width: var(--col3);
+  }
+  .xlarge4 > div {
+    width: var(--col4);
+  }
+  .xlarge5 > div {
+    width: var(--col5);
+  }
+  .xlarge6 > div {
+    width: var(--col6);
+  }
+
+  .xlarge2,
+  .xlarge3,
+  .xlarge4,
+  .xlarge5,
+  .xlarge6 {
+    flex-direction: row;
+  }
+}
+
+@media (--xxlarge) {
+  .xxlarge1 > div {
+    width: var(--col1);
+  }
+  .xxlarge2 > div {
+    width: var(--col2);
+  }
+  .xxlarge3 > div {
+    width: var(--col3);
+  }
+  .xxlarge4 > div {
+    width: var(--col4);
+  }
+  .xxlarge5 > div {
+    width: var(--col5);
+  }
+  .xxlarge6 > div {
+    width: var(--col6);
+  }
+
+  .xxlarge2,
+  .xxlarge3,
+  .xxlarge4,
+  .xxlarge5,
+  .xxlarge6 {
+    flex-direction: row;
+  }
+}

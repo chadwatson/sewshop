@@ -1,0 +1,41 @@
+:root {
+  --swatch-size-small: 50px;
+  --swatch-size-large: 60px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin-right: 5px;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.swatch {
+  display: block;
+  height: var(--swatch-size-small);
+  cursor: pointer;
+  transform: scale(0.8);
+
+  @media (--small) {
+    height: var(--swatch-size-large);
+  }
+
+  @nest .isActive & {
+    transform: scale(1);
+  }
+}
+
+.svg {
+  width: var(--swatch-size-small);
+
+  @media (--small) {
+    width: var(--swatch-size-large);
+  }
+}

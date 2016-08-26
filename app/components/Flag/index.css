@@ -1,0 +1,17 @@
+.flag {
+  position: relative;
+  width: 10em;
+  margin: 0 0.25em;
+  font-size: 10px;
+  text-align: center;
+}
+
+.shape {
+  width: 100%;
+  overflow: visible;
+}
+
+.letter {
+  font-family: bebas-neue, sans-serif;
+  text-transform: uppercase;
+}
